@@ -3,7 +3,7 @@ name: CI/CD Pipeline
 on:
   push:
     branches:
-      - main  # Specify the branch you want to trigger CI/CD
+      - master  # Specify the branch you want to trigger CI/CD
 
 jobs:
   build:
